@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class Controller {
     @GetMapping("/")
     public String Word() {
-        return "To-do Application !";
+        return "Estelle's To-do Application !";
     }
 }
